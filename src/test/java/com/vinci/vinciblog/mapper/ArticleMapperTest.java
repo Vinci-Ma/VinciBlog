@@ -11,10 +11,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import java.util.HashMap;
 import java.util.List;
 
-/**
- * @author 言曌
- * @date 2020/10/11 10:53 上午
- */
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration({"classpath:spring/spring-mybatis.xml", "classpath:spring/spring-mvc.xml", "classpath:mybatis/mybatis-config.xml"})
 @WebAppConfiguration("src/main/resources")

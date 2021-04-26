@@ -71,7 +71,6 @@ public class CategoryServiceImpl implements CategoryService {
         return category;
     }
 
-
     @Override
     public Integer countCategory() {
         Integer count = 0;
@@ -123,6 +122,5 @@ public class CategoryServiceImpl implements CategoryService {
         }
         return category;
     }
-
 
 }
